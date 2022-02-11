@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Técnica Eurocasa</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- inicio barra de navegación -->
+    <div class="container">
+        <nav class="nav-main">
+            <img src="images/LOGO.png" alt="Technew LOGO" class="nav-brand">
+            <ul class="nav-menu">
+                <li>
+                    <a href="#">INICIO</a>
+                </li>
+                <li>
+                    <a href="#">PRODUCTOS</a>
+                </li>
+                <li>
+                    <a href="#">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- fin barra de navegación -->
+
+        <!-- inicio del cuerpo de la página -->
+        <header class="home">
+            <p>MARCA TU</p>
+            <h2>ESTILO PROPIO</h2>
+        </header>
+        <!-- fin inicio del cuerpo de la página -->
+
+        <!-- inicio nosotros -->
+        <div class="about-us">
+            <div class="img-about">
+                <img src="images/ICONO_Sillon.png" alt="Icono Sillon">
+            </div>
+            <div class="text">
+                <h2>Nosotros</h2>
+                <p>Nos dedicamos al diseño y restauración de muebles apedido y a tu gusto, para que sean únicos,
+                    irrepetibles y funcionales.<br />
+                    Nuestros diseños nacen de la imaginación y la pasión que sentimos al
+                    crearlos. Buscamos generar piezas únicas en tu espacio, priorizando sobre todo el confort.<br />
+                    Trabajamos muebles con espejos, con pintura glitter y resina epóxica.</p>
+            </div>
+        </div>
+
+        <header class="banner">
+            <h2>NOVEDOSOS Y BRILLANTES</h2>
+        </header>
+
+        <!-- fin nosotros -->
+        <!-- inicio productos -->
+        <div class="product-cards">
+            <div>
+                <img src="images/IMG_Cómoda.png" alt="Cómoda Dormitorio">
+                <p class="p-1">Cómoda</p>
+                <p class="p-2">Dormitorio</p>
+            </div>
+            <div>
+                <img src="images/IMG_Sillon.png" alt="Silla Cocina">
+                <p class="p-1">Silla</p>
+                <p class="p-2">Cocina</p>
+            </div>
+            <div>
+                <img src="images/IMG_MesaRatona.png" alt="Ratona Comedor">
+                <p class="p-1">Mesa ratona</h4>
+                <p class="p-2">Living/Comedor</p>
+            </div>
+        </div>
+        <div class="buton">
+            <button type="submit" class="btn"> VER MÁS</button>
+        </div>
+        <!-- fin productos -->
+
+        <!-- inicio contacto -->
+        <div class="contact">
+            <div class="contact-wrap">
+                <div class="contact-form">
+                    <h3>Formulario</h3>
+                    <form method="post">
+                        <p>
+                            <label>Nombre</label>
+                            <input type="text" name="txtName" id="txtName">
+                        </p>
+                        <p>
+                            <label>Provincia</label>
+                            <select name="lstCountry" id="lstCountry">
+                                <optgroup>
+                                </optgroup>
+                            </select>
+                        </p>
+                        <p>
+                            <label>E-mail</label>
+                            <input type="email" name="txtMail" id="txtMail">
+
+                        </p>
+                        <p>
+                            <Label>Horario de contacto</Label>
+                            <select name="lstCountry" id="lstCountry">
+                                <optgroup>
+                                </optgroup>
+                            </select>
+                        </p>
+                        <p>
+                            <label>Télefono</label>
+                            <input type="tel" name="txtPhone" id="txtPhone">
+
+                        </p>
+                        <p>
+                            <label>Consulta</label>
+                            <input type="text" name="txtAff" id="txtAff">
+                        </p>
+                        <p></p>
+                        <p class="sub">
+                            <button type="submit">ENVIAR</button>
+                        </p>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-phone"></i>0800-000-0000</li>
+                        <li><i class="fa-brands fa-whatsapp"></i>11-00000000</li>
+                        <li><i class="fa-solid fa-location-dot"></i>Lorem ipsum 555</li>
+                    </ul>
+                </div>
+                <div class="contact-time">
+                    <h3>Horarios</h3>
+                    <p>Lunes a Viernes<br />
+                        10:00 - 19:00 hs.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- fin contacto -->
+
+        <!-- inicio footer -->
+        <div class="footer-end">
+            Todos los derechos reservados
+        </div>
+        <!-- fin footer -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

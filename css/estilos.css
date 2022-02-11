@@ -1,0 +1,304 @@
+@import url(./tipografias.css);
+@import url(./_variables.css);
+
+/* navbar estilos CCS */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: '', sans-serif;
+    font-family: 'Garamond';
+}
+
+a {
+    color: var(--color-terciario);
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 7px 40px;
+    background: var(--color-secundario);
+    color: var(--color-terciario);
+    font-family: 'Barlow-thin';
+    font-size: 20px;
+}
+
+/* Navbar */
+
+.nav-main{
+    background: var(--color-principal);
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 20px 0;
+    font-family: 'Barlow-thin';
+}
+
+.nav-brand{
+    margin-left: 70px;
+    width: 130px;
+}
+
+.nav-main ul{
+    display: flex;
+}
+
+.nav-main ul li {
+    margin-right: 100px;
+}
+
+.nav-main ul.nav-menu {
+    flex: 0;
+    margin-left: 20px;
+}
+
+/* INICIO */
+.home {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    height: 445px;
+    background: url(../images/SLIDER.png) no-repeat center center/cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.home p {
+    font-family: "Barlow-thin";
+    color: var(--color-terciario);
+    font-size: 35px;
+}
+
+.home h2 {
+    margin-bottom: 45px;
+    font-family: "Barlow-thin";
+    color: var(--color-terciario);
+    font-size: 75px;
+}
+
+/* Nosotros */
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: var(--color-terciario);
+}
+
+.about-us .img-about img{
+    margin-left: 250px;
+    margin-right: 45px;
+    height: 250px;
+}
+
+.about-us .text h2 {
+    font-family: 'Garamond';
+    font-weight: 400;
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+
+.about-us .text {
+    padding: 137px;
+    font-family: 'Barlow-light';
+    font-size: 15px;
+}
+
+/* Banner Sillón */
+
+.banner {
+    flex-direction: column;
+    display: flex;
+    height: 245px;
+    background: url(../images/BANNER_Sillon.png) no-repeat center center/cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h2 {
+    color: var(--color-terciario);
+    font-family: 'Barlow-thin';
+    font-size: 55px;
+}
+
+/* Productos */
+
+.product-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 125px;
+}
+
+.product-cards div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-cards img {
+    height: 280px;
+}
+
+.product-cards .p-1 {
+    font-family: 'Garamond';
+    font-size: 32px;
+    padding-top: 10px;
+}
+
+.product-cards .p-2 {
+    font-family: 'Barlow-extra';
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.buton{
+    padding: 70px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contacto */
+.contact {
+    background: var(--color-principal);
+    color: var(--color-terciario);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+    font-family: 'Barlow-light';
+}
+
+.contact h3 {
+    font-family: 'Garamond';
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.contact-wrap > * {
+    padding: 16px;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-form form p{
+    margin: 0;
+    padding-top: 26px;
+}
+
+.contact-form form input,
+.contact-form form button,
+.contact-form form select {
+    border: none;
+    background: none;
+    outline: none;
+    color: var(--color-terciario);
+    border-bottom: 1px solid var(--color-secundario);
+}
+.contact-form form input,
+.contact-form form select{
+    display: flex;
+    width: 70%;
+}
+.contact-form form .sub {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    margin-right: 16px;
+}
+.contact-form form button {
+    background: var(--color-secundario);
+    border: 0;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Barlow-thin';
+    margin-right: 30px;
+    width: auto;
+}
+.contact-info{
+    display: block;
+}
+
+.contact-info h3,
+.contact-info ul{
+    margin: 0 0 25px 0;
+    padding: 0;
+}
+
+
+.contact-info i{
+    color: var(--color-secundario);
+    margin: 10px 16px 0 0;
+}
+
+.contact-info ul li {
+
+    padding: 0 0 16px 0;
+}
+
+.contact-time h3,
+.contact-time p {
+    margin: 0 0 16px 0;
+    padding: 0;
+}
+
+/* Footer end */
+
+.footer-end {
+    background: var(--color-secundario);
+    font-family: 'Barlow-light';
+    font-size: 22px;
+    padding: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-terciario);
+}
+
+/* Responsive */
+
+@media (min-width: 700px) {
+    .contact-wrap {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+
+    .contact-wrap > *{
+        padding: 32px;
+    }
+
+    .contact-info h3,
+    .contact-info ul{
+        margin: 0 0 25px 0;
+        padding: 0;
+    }
+
+    .contact-form form .sub {
+        padding-right: 42px;
+    }
+}

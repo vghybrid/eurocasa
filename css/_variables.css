@@ -1,0 +1,12 @@
+html, body  {
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+:root {
+    --color-principal: #000000;
+    --color-secundario: #75DED7;
+    --color-terciario: #FFFFFF;
+    --font-header: "Barlow", sans-serif;
+}

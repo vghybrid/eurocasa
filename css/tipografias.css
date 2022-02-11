@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Barlow-thin";
+    src: url(../tipografias/Barlow/BARLOW-THIN.TTF);
+}
+@font-face {
+    font-family: "Barlow";
+    src: url(../tipografias/Barlow/BARLOW-REGULAR.TTF);
+}
+@font-face {
+    font-family: "Barlow-light";
+    src: url(../tipografias/Barlow/BARLOW-LIGHT.TTF);
+}
+@font-face {
+    font-family: "Garamond";
+    src: url(../tipografias/Garamond/GARA.TTF);
+}
+@font-face {
+    font-family: "Barlow-medium";
+    src: url(../tipografias/Barlow/BARLOW-MEDIUM.TTF);
+}
+@font-face {
+    font-family: "Barlow-extra";
+    src: url(../tipografias/Barlow/BARLOW-EXTRALIGHT.TTF);
+}
