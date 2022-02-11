@@ -69,6 +69,16 @@ ul{
     margin-left: 20px;
 }
 
+.menu-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    color: var(--color-terciario);
+    z-index: 2;
+    font-size: 24px;
+    display: none;
+}
 /* INICIO */
 .home {
     flex-direction: column;
@@ -300,5 +310,50 @@ ul{
 
     .contact-form form .sub {
         padding-right: 42px;
+    }
+}
+
+@media (max-width: 700px) {
+    .nav-main ul.nav-menu {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: var(--color-secundario);
+        width: 50%;
+        height: 100%;
+        opacity: 0.9;
+        padding: 30px;
+        transform: translateX(-500px);
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .nav-main ul.nav-menu.show {
+        transform: translateX(-20px);
+    }
+
+    .nav-main ul.nav-menu li {
+        padding-top: 30px;
+    }
+
+    .nav-main ul li{
+        font-size: 25px;
+    }
+
+    .product-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about-us {
+        display: flex;
+        padding: 10px;
+        background: var(--color-terciario);
+        flex-direction: column;
+    }
+
+    .about-us .img-about img {
+        margin-top: 50px;
+        margin-right: 220px;
+        height: 250px;
     }
 }
